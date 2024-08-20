@@ -24,7 +24,7 @@ public class ex1 {
                         .toArray();
                 out.print("Target: ");
                 target = sc.nextInt();
-            } catch (Exception e) {
+            } catch (NumberFormatException e) {
                 out.println("Warning : Value is not numeric number.");
                 continue;
             }
